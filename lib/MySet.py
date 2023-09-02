@@ -17,3 +17,12 @@ class MySet:
   
   def size(self):
     return len(self.dictionary)
+  
+  def clear(self):
+      self.dictionary.clear()
+      return self
+    
+  def str(self):
+    print(str(self.dictionary))
+
+set = MySet([1,2,3])
